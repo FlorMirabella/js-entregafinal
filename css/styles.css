@@ -1,0 +1,430 @@
+* {
+    margin-right: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :focus-visible {
+    outline: 1px solid rgb(119, 0, 156);
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+  }
+
+  .encabezado {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    margin-left: 50px;
+
+  }
+
+  #productos {
+    margin: 0px;
+  }
+
+  .errorCarga {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  header {
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid rgb(119, 0, 156);
+    ;
+  }
+
+  header div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+
+  .paginas {
+    justify-content: end;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+  
+  .paginas a {
+    margin: 1rem;
+  }
+
+  .carrito{
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px
+  }
+  
+  header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .paginas a {
+    margin: 1rem;
+  }
+  
+  .logo{
+    margin-left: 100px;
+    margin-right: 100px
+  }
+  
+  .imagen_logo {
+    display: flex;
+    height: 5rem;
+  }
+    
+  
+  .buscador button, .buscador input {
+    padding: 0.6rem;
+    border: 1px solid rgb(0, 0, 0);
+  
+  }
+  
+  .buscador_carrito {
+    justify-content: end;
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+  
+  .buscador button {
+    color:rgb(0, 0, 0);
+    border-radius: 0 0.5rem 0.5rem 0;
+    cursor: pointer;
+  }
+  
+  .buscador input {
+    color: rgb(0, 0, 0);
+    border-radius: 0.5rem 0 0 0.5rem;
+  }
+  
+  .usuario p, .usuario a {
+    color: rgb(0, 0, 0);
+    margin: 0.5rem;
+    text-transform: uppercase;
+  }
+  
+  .usuario a {
+    text-decoration: none;
+  }
+  
+  header a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    align-self: center;
+  }
+  
+  .buscador, .usuario{
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
+    
+  }
+
+  .usuario button {
+    font-family: "Open Sans";
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 0.2rem;
+  }
+  
+  .usuario button:hover {
+    background-color: rgb(119, 0, 156);
+    color: white;
+    border-radius: 0.5rem;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1 {
+    font-family: 'Titan One', cursive;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 50px;
+  }
+  
+  #container {
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    min-height: 25vh;
+  }
+
+  #container h2 {
+    font-weight: lighter;
+  }
+  
+  .productos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-self: center;
+    
+  }
+
+  select {
+      background-color: rgb(119, 0, 156);
+      color: rgb(255 255 255);
+      font-size: 1rem;
+      border: none;
+      font-weight: lighter;
+  }
+  
+  
+  .card-producto,
+  .card-producto-sinStock {
+    width: 15rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card-producto-sinStock {
+    align-self: flex-start;
+  }
+  
+  .card-producto-sinStock div {
+    position: absolute;
+    background-color: rgb(119, 0, 156, 0.8);
+    width: 15rem;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card-producto h2,
+  .card-producto-sinStock h2 {
+    text-align: center;
+  }
+  
+  
+  .card-producto img,
+  .card-producto-sinStock img {
+    object-fit: contain;
+    width: 100%;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .card-producto div {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card-producto div button, .card-producto div input {
+    padding: 0.6rem;
+    border: 1px solid rgb(0, 0, 0);
+  }
+  
+  .card-producto div button {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 0 0.5rem 0.5rem 0;
+    cursor: pointer;
+  }
+  
+  .card-producto div input {
+    color: rgb(44, 44, 44);
+    border-radius: 0.5rem 0 0 0.5rem;
+  }
+
+  .productosEncontrados {
+    width: 100%;
+  }
+  .productosEncontrados h2 {
+    text-align: center;
+  }
+  
+  .noProducto {
+    align-self: center;
+    display: flex;
+  }
+  
+  .card-carrito,
+  .card-admin {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding: 1rem;
+  }
+  
+  .card-carrito:first-of-type,
+  .card-admin:first-of-type {
+    border-top: 1px solid rgb(0, 0, 0);
+    margin-top: 2rem;
+  }
+  
+  .card-carrito :last-child,
+  .card-admin :last-child {
+    text-align: end;
+  }
+  
+  .card-carrito img,
+  .card-admin img {
+    width: 10%;
+    object-fit: contain;
+    
+  }
+  
+  .card-carrito h2, .card-carrito p,.card-admin h2,
+  .card-admin p {
+    width: 10rem;
+    margin: 0 1rem 0 1rem;
+  }
+  
+  .card-admin input {
+    color: rgb(119, 0, 156);
+    border-radius: 0.5rem 0 0 0.5rem;
+  }
+  
+  .card-admin button {
+    background-color: rgb(119, 0, 156);
+    color: white;
+    border-radius: 0 0.5rem 0.5rem 0;
+    cursor: pointer;
+  }
+  
+  .card-admin input, .card-admin button {
+    padding: 0.6rem;
+    border: 1px solid rgb(119, 0, 156);
+  }
+
+  .total-carrito {
+    width: 80%;
+    text-align: center;
+    margin: 2rem;
+  }
+  
+  .btn-confirmacion {
+    background-color: rgb(0, 0, 0) !important;
+  }
+  
+  .finalizarCompra {
+    color: rgb(0, 0, 0);
+    border-radius: 0.5rem 0 0 0.5rem;
+    cursor: pointer;
+    padding: 1rem;
+    border: none;
+    min-width: 10rem;
+    border-color:rgb(119, 0, 156);
+  }
+  
+  .eliminarCarrito {
+    color: rgb(0, 0, 0);
+    border-radius: 0 0.5rem 0.5rem 0;
+    cursor: pointer;
+    padding: 1rem;
+    border: none;
+    min-width: 10rem;
+    border-color:rgb(119, 0, 156);
+  }
+
+  #formIniciarSesion,
+#formCrearCuenta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#formIniciarSesion form,
+#formCrearCuenta form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 3rem 0;
+}
+
+#formIniciarSesion form ::placeholder,
+#formCrearCuenta form ::placeholder {
+  color: rgb(193, 176, 162);
+}
+
+.usuarioIS,
+.passwordIS,
+.submitIS,
+.usuarioCC,
+.passwordCC,
+.submitCC,
+.nombreCC {
+  margin: 0.5rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: solid 1px rgb(119, 0, 156);
+}
+
+.usuarioIS,
+.passwordIS,
+.usuarioCC,
+.passwordCC,
+.nombreCC {
+  color: rgb(119, 0, 156);
+}
+
+
+
+.submitIS,
+.submitCC {
+  background-color: rgb(119, 0, 156);
+  color: white;
+  border: none;
+}
+
+.colored-toast.swal2-icon-success {
+  background-color: rgb(119, 0, 156) !important;
+}
+
+.colored-toast .swal2-title {
+  color: white;
+}
+
+.colored-toast .swal2-close {
+  color: white;
+}
+
+.colored-toast .swal2-html-container {
+  color: white;
+}
+
+@media (width <= 600px) {
+  .imagenLogo {
+    display: none;
+  }
+  .encabezado {
+    margin-top: 2rem;
+    flex-direction: column;
+  }
+  .paginas {
+    display: flex;
+    justify-content: center;
+  }
+}

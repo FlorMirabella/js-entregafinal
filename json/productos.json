@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "nombre": "Gin Beefeater",
+    "precio": 7500,
+    "cantidad": 20,
+    "tipo": "Gin Beefeater",
+    "imagen": "./images/bebidas/gin.png"
+  },
+  {
+    "id": 2,
+    "nombre": "Fernet Branca",
+    "precio": 3500,
+    "cantidad": 20,
+    "tipo": "Fernet Branca",
+    "imagen": "./images/bebidas/fernet.png"
+  },
+  {
+    "id": 3,
+    "nombre": "José Cuervo",
+    "precio": 8000,
+    "cantidad": 20,
+    "tipo": "José Cuervo",
+    "imagen": "./images/bebidas/tequila.png"
+  },
+  {
+    "id": 4,
+    "nombre": "Johnnie Walker - Blue Label",
+    "precio": 12500,
+    "cantidad": 20,
+    "tipo": "Johnnie Walker - Blue Label",
+    "imagen": "./images/bebidas/wisky-jw-blue.png"
+  },
+  {
+    "id": 5,
+    "nombre": "Johnnie Walker - Red Label",
+    "precio": 9500,
+    "cantidad": 20,
+    "tipo": "Johnnie Walker - Red Label",
+    "imagen": "./images/bebidas/wisky-jw-red.png"
+  },
+  {
+    "id": 6,
+    "nombre": "Vodka Absolut",
+    "precio": 7000,
+    "cantidad": 20,
+    "tipo": "Vodka Absolut",
+    "imagen": "./images/bebidas/vodka.png"
+  }
+]

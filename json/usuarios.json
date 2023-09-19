@@ -1,0 +1,26 @@
+[
+  {
+    "nombre": "Florencia Mirabella",
+    "usuario": "florenciamirabella90",
+    "contraseña": "mirabella1990",
+    "admin": true
+  },
+  {
+    "nombre": "Paula Romagnolli",
+    "usuario": "pauromagnolli00",
+    "contraseña": "romagnolli2000",
+    "admin": false
+  },
+  {
+    "nombre": "Rodrigo Iglesias",
+    "usuario": "roiglesias88",
+    "contraseña": "iglesias1988",
+    "admin": true
+  },
+  {
+    "nombre": "Ana Belen Mirabella",
+    "usuario": "abelenmirabella97",
+    "contraseña": "abmirabella1997",
+    "admin": true
+  }
+]

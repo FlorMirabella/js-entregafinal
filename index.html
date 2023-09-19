@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nala - Wine Bar</title>
+ 
+  <script src="https://kit.fontawesome.com/5122bb80de.js" crossorigin="anonymous"></script>
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:wght@300&display=swap"
+    rel="stylesheet">
+  
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+  <header>
+    <div class="encabezado">      
+        <div><a class="imagen_logo" href="./index.html"><img class="" src="./images/logo.png" alt="logo nala"></a></div>
+        <div class="usuario" id="usuario">
+          <a href="#crearCuenta" id="crearCuenta">Crear Cuenta</a>
+          <p>|</p>
+          <a href="#iniciarSesion" id="iniciarSesion">Iniciar Sesion</a>
+        </div>      
+    </div>
+    <div class="paginas" id="paginas">
+      <div class="buscador">
+        <input type="text" name="inputBuscador" id="inputBuscador" placeholder="Buscar">
+        <button type="button" id="botonBuscador"><i class="fa-solid fa-magnifying-glass"></i></button>
+      </div>
+      <a href="#carritoDeCompras" id="carritoDeCompras"><i class="fa-solid fa-cart-shopping"></i>
+        <span id="contadorCarrito"></span></a>
+      <a href="#productos" id="productos">Productos</a>
+    </div>
+    </div>
+    
+  </header>
+
+  <main>
+    <div id="container">
+      <div>
+        <h1>¿Qué bebida deseas comprar?</h1>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+  </footer>
+  <!-- SweetAlert -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <!-- JavaScript -->
+  <script src="./js/main.js" type="module"></script>
+</body>
+
+</html>
